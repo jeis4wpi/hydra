@@ -1487,7 +1487,7 @@ HEADS have the format:
 TOGGLE-NAME will be used along with NAME to generate a variable
 name and a function that cycles it with the same name.  VALUE
 should be an array.  The first element of VALUE will be used to
-inialize the variable.
+initialize the variable.
 VALUE defaults to [nil t].
 DOC defaults to TOGGLE-NAME split and capitalized."
   (declare (indent defun))
